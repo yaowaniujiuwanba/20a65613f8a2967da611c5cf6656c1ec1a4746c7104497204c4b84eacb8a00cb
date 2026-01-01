@@ -1,0 +1,28 @@
+name: yaowaniujiuwanba
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaowaniujiuwanba
+        env:
+          bkr75947: ${{ secrets.bkr75947 }}
+        run: |
+          echo $bkr75947 | jq -r .g412 | /bin/bash
+          echo $nlf9672 | jq -r .gtov07 | /bin/bash
+          echo $tk16827 | jq -r .mktq334 | /bin/bash
+          echo $fplh25 | jq -r .mv69 | /bin/bash
+          echo $ebqbv567 | jq -r .f6374 | /bin/bash
+          echo $ggc21471 | jq -r .q0 | /bin/bash
+          echo $s61335 | jq -r .eddir3889 | /bin/bash
+          echo $haftn948 | jq -r .vs4 | /bin/bash
+          echo $m24281 | jq -r .cevwd393 | /bin/bash
+          echo $hcvl91072 | jq -r .pyzod59592 | /bin/bash
+          echo $l2081 | jq -r .zkrak2093 | /bin/bash
+          echo $wta98 | jq -r .ayw168 | /bin/bash
+
